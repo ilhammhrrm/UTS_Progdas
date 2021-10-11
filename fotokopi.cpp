@@ -21,9 +21,10 @@ int main()
     else if(input=="N"&&fotokopi<=200&&fotokopi>100)
                 {harga=fotokopi*100;}
     else if(input=="N"&&fotokopi>200)
-                {harga=fotokopi*100;}
+                {harga=fotokopi*80;}
     cout<<"==============================";
     cout<<"\nBayar: Rp. "<<harga;
     cout<<"\n==============================";
+    getch();
 
 }
